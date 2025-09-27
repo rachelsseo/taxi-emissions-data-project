@@ -15,3 +15,5 @@ models:
   nyc_taxi_emissions:
     staging:
       +materialized: table
+    intermediate:
+      +materialized: table

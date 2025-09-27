@@ -1,2 +1,4 @@
-import duckdb
-import logging
+# used dbt!
+
+# import duckdb
+# import logging

@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: nyc_taxi
+    schema: main
+    tables:
+     - name: yellow_taxi_2024
+     - name: green_taxi_2024
+     - name: emissions
