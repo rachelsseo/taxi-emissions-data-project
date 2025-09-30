@@ -1,3 +1,8 @@
 duckdb
 pandas
 dbt-duckdb
+logging
+pandas as pd
+matplotlib.pyplot as plt
+seaborn as sns
+datetime

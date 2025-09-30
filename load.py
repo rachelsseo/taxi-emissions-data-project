@@ -67,7 +67,12 @@ def load_parquet_files():
         print(f"Number of records for green taxi data before cleaning: {green_count}")
         print(f"Number of records for emissions data before cleaning: {emissions_count}")
 
+        # logging info 
+        logger.info(f"Yellow taxi records loaded: {yellow_count}")
+        logger.info(f"Green taxi records loaded: {green_count}")
+        logger.info(f"Emissions records loaded: {emissions_count}")
         logger.info("Data load verification queries executed successfully")
+        
         print("Parquet files loaded successfully into DuckDB.")
 
         return con
